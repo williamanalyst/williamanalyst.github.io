@@ -1,98 +1,337 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-            padding: 1rem;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 2rem;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Personal Page</h1>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm [Your Name], a data scientist specializing in [your specialization]. Currently, I'm applying for a data scientist position at Microsoft Clipchamp.</p>
-            <img src="[image_url]" alt="A photo of [Your Name]">
+<!-- Wrapper -->
+<div id="wrapper" class="divided">
+
+    <!-- One -->
+        <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+            <div class="content">
+                <h1>Portfilio Demo for William Xie: </h1>
+                <p class="major">William has done much Data Science work in <a href="https://html5up.net">Web Scraping</a>, Computer Vision, <a href="https://html5up.net/license">Natural Language Processing</a>, etc.</p>
+                <ul class="actions stacked">
+                    <li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/banner.jpg" alt="" />
+            </div>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a href="[project_link]">Project 1</a>: Description of project 1.
-                    <br>
-                    <img src="[image_url]" alt="Screenshot of Project 1">
-                </li>
-                <li>
-                    <a href="[project_link]">Project 2</a>: Description of project 2.
-                    <br>
-                    <img src="[image_url]" alt="Screenshot of Project 2">
-                </li>
-                <li>
-                    <a href="[project_link]">Project 3</a>: Description of project 3.
-                    <br>
-                    <img src="[image_url]" alt="Screenshot of Project 3">
-                </li>
-            </ul>
+
+    <!-- Two -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+            <div class="content">
+                <h2>Web Scraping</h2>
+                <p>When we are handling some real-world problems with the internal dataset, sometimes it does not give us a commprehensive view of the story. Therefore, we might need to seek for high quality, external dataset to support our decision making process.</p>
+                <ul class="actions stacked">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/spotlight01.jpg" alt="" />
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+
+    <!-- Three -->
+        <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+            <div class="content">
+                <h2>Natural Language Processing</h2>
+                <p>With the help of NLP techniques, we can research into contents that customers are interested in and classify products in the right clusters.</p>
+                <ul class="actions stacked">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/spotlight02.jpg" alt="" />
+            </div>
         </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+
+    <!-- Four -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+            <div class="content">
+                <h2>Regression, Classification, Predictive Modelling</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+                <ul class="actions stacked">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/spotlight03.jpg" alt="" />
+            </div>
+        </section>
+
+    <!-- Five -->
+        <section class="wrapper style1 align-center">
+            <div class="inner">
+                <h2>Data Science</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+            </div>
+
+            <!-- Gallery -->
+                <div class="gallery style2 medium lightbox onscroll-fade-in">
+                    <article>
+                        <a href="images/gallery/fulls/01.jpg" class="image">
+                            <img src="images/gallery/thumbs/01.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Ipsum Dolor</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/02.jpg" class="image">
+                            <img src="images/gallery/thumbs/02.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Feugiat Lorem</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/03.jpg" class="image">
+                            <img src="images/gallery/thumbs/03.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Magna Amet</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/04.jpg" class="image">
+                            <img src="images/gallery/thumbs/04.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Sed Tempus</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/05.jpg" class="image">
+                            <img src="images/gallery/thumbs/05.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Ultrices Magna</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/06.jpg" class="image">
+                            <img src="images/gallery/thumbs/06.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Sed Tempus</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/07.jpg" class="image">
+                            <img src="images/gallery/thumbs/07.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Ipsum Lorem</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/08.jpg" class="image">
+                            <img src="images/gallery/thumbs/08.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Magna Risus</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/09.jpg" class="image">
+                            <img src="images/gallery/thumbs/09.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Tempus Dolor</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/10.jpg" class="image">
+                            <img src="images/gallery/thumbs/10.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Sed Etiam</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/11.jpg" class="image">
+                            <img src="images/gallery/thumbs/11.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Magna Lorem</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/12.jpg" class="image">
+                            <img src="images/gallery/thumbs/12.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Ipsum Dolor</h3>
+                            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+                            <ul class="actions fixed">
+                                <li><span class="button small">Details</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+        </section>
+
+    <!-- Six -->
+        <section class="wrapper style1 align-center">
+            <div class="inner">
+                <h2>Ipsum sed consequat</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+                <div class="items style1 medium onscroll-fade-in">
+                    <section>
+                        <span class="icon style2 major fa-gem"></span>
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-save"></span>
+                        <h3>Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-chart-bar"></span>
+                        <h3>Dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-wifi"></span>
+                        <h3>Amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-cog"></span>
+                        <h3>Magna</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon style2 major fa-paper-plane"></span>
+                        <h3>Tempus</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-desktop"></span>
+                        <h3>Aliquam</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-sync-alt"></span>
+                        <h3>Elit</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-hashtag"></span>
+                        <h3>Morbi</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-bolt"></span>
+                        <h3>Turpis</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-envelope"></span>
+                        <h3>Ultrices</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-leaf"></span>
+                        <h3>Risus</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+    <!-- Seven -->
+        <section class="wrapper style1 align-center">
+            <div class="inner medium">
+                <h2>Get in touch</h2>
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" value="" />
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" value="" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions special">
+                        <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+
+            </div>
+        </section>
+
+    <!-- Footer -->
+        <footer class="wrapper style1 align-center">
+            <div class="inner">
+                <ul class="icons">
+                    <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </div>
+        </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
