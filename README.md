@@ -1,6 +1,6 @@
 <!-- Wrapper -->
 <div id="wrapper" class="divided">
-
+<title>William Xie</title>
     <!-- One -->
         <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
             <div class="content">
@@ -19,7 +19,7 @@
         <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
             <div class="content">
                 <h2>Web Scraping</h2>
-                <p>When we are handling some real-world problems with the internal dataset, sometimes it does not give us a commprehensive view of the story. Therefore, we might need to seek for high quality, external dataset to support our decision making process.</p>
+                <p>When we are handling some real-world problems with the internal dataset, sometimes it does not give us a comprehensive view of the story. Therefore, we might need to seek for high quality, external dataset to support our decision making process.</p>
                 <ul class="actions stacked">
                     <li><a href="#" class="button">Learn More</a></li>
                 </ul>
